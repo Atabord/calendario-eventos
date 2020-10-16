@@ -72,6 +72,7 @@ class EventManager {
                     }
                 });
                 $('.calendario').fullCalendar('renderEvent', ev)
+                location.reload();
             } else {
                 alert("Complete los campos obligatorios para el evento")
             }
